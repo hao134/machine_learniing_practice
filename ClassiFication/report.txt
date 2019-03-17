@@ -1,0 +1,30 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 0 issues that require attention
+--------------------------------------------------------------------------------
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'test.py'
+ outputting to 'testver2.py'
+--------------------------------------------------------------------------------
+
+8:26: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+20:34: INFO: Added keywords to args of function 'tf.argmax'
+20:54: INFO: Added keywords to args of function 'tf.argmax'
+21:15: INFO: Added keywords to args of function 'tf.reduce_mean'
+26:5: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+27:5: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+33:16: INFO: Added keywords to args of function 'tf.reduce_mean'
+33:32: INFO: Added keywords to args of function 'tf.reduce_sum'
+33:32: INFO: Renamed keyword argument for tf.reduce_sum from reduction_indices to axis
+33:51: INFO: Renamed 'tf.log' to 'tf.math.log'
+35:13: INFO: Renamed 'tf.train.GradientDescentOptimizer' to 'tf.compat.v1.train.GradientDescentOptimizer'
+37:7: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+42:11: INFO: Renamed 'tf.initialize_all_variables' to 'tf.compat.v1.initialize_all_variables'
+44:11: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+--------------------------------------------------------------------------------
+

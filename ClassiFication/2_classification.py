@@ -44,3 +44,4 @@ plt.figure(0,figsize=(18, 6))
 plt.subplot(1,3,1)
 plt.scatter(x_test[:, 0], x_test[:, 1], c=y_test, s=100, lw=0, cmap='tab10')
 plt.show()
+#end
